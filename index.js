@@ -35,7 +35,7 @@ try {
 // Главная страница
 app.get('/', (req, res) => {
   console.log('🏠 Home page accessed');
-  res.send('Gjob Bot is running on Vercel');
+  res.send('Gecko Bot is running on Vercel');
 });
 
 // Проверка вебхука
@@ -72,7 +72,7 @@ app.get('/health', (req, res) => {
   res.json({ 
     status: 'ok', 
     timestamp: new Date().toISOString(),
-    service: 'gjob-bot'
+    service: 'GeckoBot'
   });
 });
 
