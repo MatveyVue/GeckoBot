@@ -77,7 +77,7 @@ app.get('/health', (req, res) => {
 });
 
 console.log('🚀 Bot ready to receive updates');
-console.log(`🌐 Webhook URL: https://GeckoBot.vercel.app/bot${BOT_TOKEN}`);
+console.log(`🌐 Webhook URL: https://geckobot.vercel.app/bot${BOT_TOKEN}`);
 
 // Экспортируем для Vercel
 module.exports = app;
